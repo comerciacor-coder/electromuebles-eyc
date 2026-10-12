@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: electromuebles-eyc
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    domains:
+      - electromuebleseyc.com
+      - www.electromuebleseyc.com
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
