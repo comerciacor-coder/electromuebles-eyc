@@ -7,11 +7,13 @@
 <meta name="description" content="Televisores, neveras, lavadoras, estufas, hornos, campanas, calentadores, aires y combos Challenger a crédito en Ciénaga de Oro, Córdoba. Distribuidor autorizado.">
 <meta name="theme-color" content="#1f4fd1">
 <link rel="canonical" href="https://electromuebleseyc.com/catalogo-challenger/">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="64x64" href="/img/favicon-64.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 <meta property="og:title" content="Catálogo Challenger · Electromuebles E&amp;C">
 <meta property="og:description" content="Productos Challenger a crédito en Ciénaga de Oro. Cotiza por WhatsApp.">
 <meta property="og:url" content="https://electromuebleseyc.com/catalogo-challenger/">
 <meta property="og:locale" content="es_CO">
+<meta property="og:image" content="https://electromuebleseyc.com/img/icono-512.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://challengerco.vteximg.com.br">
@@ -94,7 +96,8 @@
   .fab svg{width:30px;height:30px}
   :focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
 
-  @media (max-width:820px){.menu{display:none}.tools{position:static}}
+  @media (max-width:980px){.menu{display:none}}
+  @media (max-width:820px){.tools{position:static}}
   @media (max-width:520px){
     .wrap{padding:0 14px}
     .brand-name{font-size:16px}.brand-tag{display:none}
@@ -118,6 +121,10 @@
     .tools{padding:14px 0 10px}
   }
   @media (max-width:340px){.grid{grid-template-columns:1fr}}
+  .brand-logo{display:block;height:42px;width:auto}
+  @media (max-width:1080px){.brand-logo{height:36px}}
+  @media (max-width:520px){.brand-logo{height:30px}}
+  @media (max-width:360px){.brand-logo{height:26px}}
 </style>
 </head>
 <body>
@@ -133,11 +140,7 @@
 <header>
   <div class="wrap nav">
     <a class="brand" href="/" aria-label="Electromuebles E&C, inicio">
-      <svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true">
-        <path d="M20 2.5 35.2 11v18L20 37.5 4.8 29V11z" fill="none" stroke="#1f4fd1" stroke-width="4.5" stroke-linejoin="round"/>
-        <path d="M22.5 8.5 12.5 22h7l-2.5 9.5L27.5 18h-7z" fill="#1f4fd1"/>
-      </svg>
-      <span><span class="brand-name">ELECTROMUEBLES E&amp;C</span><span class="brand-tag">Tecnología, electrodomésticos y muebles</span></span>
+      <img class="brand-logo" src="/img/logo-eyc.png" alt="Electromuebles E&amp;C · Tecnología, electrodomésticos y muebles" width="1239" height="152">
     </a>
     <ul class="menu">
       <li><a href="/#productos">Productos</a></li>
